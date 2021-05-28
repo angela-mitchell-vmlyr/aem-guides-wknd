@@ -47,7 +47,7 @@ public class BylineModelImplTest {
     public void setUp() {
         ctx.addModelsForClasses(BylineModelImpl.class);
 
-        ctx.load().json("/com/adobe/aem/guides/wknd/core/models/impl/BylineImplTest.json", "/content");
+        ctx.load().json("/com/adobe/aem/guides/wknd/core/models/impl/BylineModelImplTest.json", "/content");
 
         lenient().when(modelFactory.getModelFromWrappedRequest(eq(ctx.request()), any(Resource.class), eq(Image.class)))
                 .thenReturn(image);
