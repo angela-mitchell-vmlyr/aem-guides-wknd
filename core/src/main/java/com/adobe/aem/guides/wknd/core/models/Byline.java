@@ -2,7 +2,7 @@ package com.adobe.aem.guides.wknd.core.models;
 
 import java.util.List;
 
-public interface BylineModel {
+public interface Byline {
     /***
      * @return a string a display as the name.
      */

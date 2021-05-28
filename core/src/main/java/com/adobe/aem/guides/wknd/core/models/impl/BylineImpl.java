@@ -16,17 +16,17 @@ import org.apache.sling.models.annotations.injectorspecific.Self;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 import org.apache.sling.models.factory.ModelFactory;
 
-import com.adobe.aem.guides.wknd.core.models.BylineModel;
+import com.adobe.aem.guides.wknd.core.models.Byline;
 
 import com.adobe.cq.wcm.core.components.models.Image;
 
 @Model(
         adaptables = {SlingHttpServletRequest.class},
-        adapters = {BylineModel.class},
-        resourceType = {BylineModelImpl.RESOURCE_TYPE},
+        adapters = {Byline.class},
+        resourceType = {BylineImpl.RESOURCE_TYPE},
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
-public class BylineModelImpl implements BylineModel {
+public class BylineImpl implements Byline {
     protected static final String RESOURCE_TYPE = "wknd/components/content/byline";
 
     @Self
