@@ -19,8 +19,7 @@ import static org.apache.sling.api.resource.ResourceResolver.PROPERTY_RESOURCE_T
 
 import javax.annotation.PostConstruct;
 
-import org.apache.commons.lang.StringUtils;
-// import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
