@@ -51,7 +51,7 @@
                     <group>com.adobe.aem.guides.wknd</group>
                     <name>aem-guides-wknd.ui.apps</name>
                     <packageType>application</packageType>
-                    <accessControlHandling>merge</accessControlHandling>
+                    <!-- <accessControlHandling>merge</accessControlHandling> -->
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.adobe.aem.guides.wknd</groupId>
